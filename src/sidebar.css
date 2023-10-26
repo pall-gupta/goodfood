@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+.sidebar {
+  background: #f1f2f7;
+  width: 270px;
+  padding: 2rem;
+}
+.links li.active {
+  background-color: #707fdd2b;
+  color: #5a6acf;
+  padding: 0.7rem 1.2rem;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.links li {
+  padding: 0.7rem 1.2rem;
+  font-size: 14px;
+  color: #273240;
+  font-weight: 400;
+}

@@ -1,0 +1,40 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+.logo-bar {
+  background: #f1f2f7;
+  width: 270px;
+}
+nav {
+  border-bottom: 1px solid #c8cbd9;
+}
+.logo {
+  background-color: #5a67ba;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.logoName {
+  color: #5a67ba;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+}
+.search-box {
+  border-radius: 5px;
+  background: #f6f6fb;
+  color: #1f384c;
+  font-size: 13px;
+}
+.dropdown p {
+  font-size: 14px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.notification {
+  width: 7px;
+  height: 7px;
+  background-color: #ec5252;
+  right: 0;
+  top: -1px;
+  border: 1px solid #fff;
+}
